@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Bech Bhai Bech\\ScheduleTransportationInstructions\\Domain\\Domain.csproj": {}
+    "D:\\Bech Bhai Bech\\BechBhaiBech\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\Bech Bhai Bech\\ScheduleTransportationInstructions\\Domain\\Domain.csproj": {
+    "D:\\Bech Bhai Bech\\BechBhaiBech\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bech Bhai Bech\\ScheduleTransportationInstructions\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Bech Bhai Bech\\BechBhaiBech\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Bech Bhai Bech\\ScheduleTransportationInstructions\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Bech Bhai Bech\\BechBhaiBech\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Dotnet\\.nuget\\packages\\",
-        "outputPath": "D:\\Bech Bhai Bech\\ScheduleTransportationInstructions\\Domain\\obj\\",
+        "outputPath": "D:\\Bech Bhai Bech\\BechBhaiBech\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

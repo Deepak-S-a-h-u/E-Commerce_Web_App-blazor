@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScheduleTransportationInstructions.API", "ScheduleTransportationInstructions.API\ScheduleTransportationInstructions.API.csproj", "{67EC6027-CE93-4188-BFA4-FD7FAC20B67C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "ScheduleTransportationInstructions.API\API.csproj", "{67EC6027-CE93-4188-BFA4-FD7FAC20B67C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{B207FC3B-FD93-4FAE-BA15-F79BA35A2448}"
 EndProject

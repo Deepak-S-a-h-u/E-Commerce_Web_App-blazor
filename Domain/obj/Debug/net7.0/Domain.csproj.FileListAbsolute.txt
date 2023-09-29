@@ -76,3 +76,14 @@ D:\Bech Bhai Bech\ScheduleTransportationInstructions\Domain\obj\Debug\net7.0\Dom
 D:\Bech Bhai Bech\ScheduleTransportationInstructions\Domain\obj\Debug\net7.0\refint\Domain.dll
 D:\Bech Bhai Bech\ScheduleTransportationInstructions\Domain\obj\Debug\net7.0\Domain.pdb
 D:\Bech Bhai Bech\ScheduleTransportationInstructions\Domain\obj\Debug\net7.0\ref\Domain.dll
+D:\Bech Bhai Bech\BechBhaiBech\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\Bech Bhai Bech\BechBhaiBech\Domain\bin\Debug\net7.0\Domain.dll
+D:\Bech Bhai Bech\BechBhaiBech\Domain\bin\Debug\net7.0\Domain.pdb
+D:\Bech Bhai Bech\BechBhaiBech\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bech Bhai Bech\BechBhaiBech\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\Bech Bhai Bech\BechBhaiBech\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\Bech Bhai Bech\BechBhaiBech\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\Bech Bhai Bech\BechBhaiBech\Domain\obj\Debug\net7.0\Domain.dll
+D:\Bech Bhai Bech\BechBhaiBech\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\Bech Bhai Bech\BechBhaiBech\Domain\obj\Debug\net7.0\Domain.pdb
+D:\Bech Bhai Bech\BechBhaiBech\Domain\obj\Debug\net7.0\ref\Domain.dll
