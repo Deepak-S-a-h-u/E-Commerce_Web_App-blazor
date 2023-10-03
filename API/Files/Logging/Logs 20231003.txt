@@ -1,0 +1,4 @@
+2023-10-03T13:00:38.7961191+05:30 [INF] (Infrastructure.Repository.CarRepository) GetCars called to Get all Cars from database
+2023-10-03T13:00:39.8873684+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Car" responded 200 in 1242.7872 ms
+2023-10-03T13:06:52.2575411+05:30 [INF] (Infrastructure.Repository.CarRepository) GetCars called to Get all Cars from database
+2023-10-03T13:06:53.0886751+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Car" responded 200 in 897.4635 ms
