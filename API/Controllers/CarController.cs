@@ -18,13 +18,13 @@ namespace API.Controllers
 
 
         [HttpGet]
-        public async Task<IEnumerable<Domain.Entities.Car>> GetAllCars () 
+        public async Task<IEnumerable<CarDto>> GetAllCars () 
         {
              var cars=await _repository.GetCars();
             return cars;
         }
         [HttpPost]
-        public async Task<Car> AddCar(Car carDto )
+        public async Task<CarDto> AddCar(CarDto carDto )
         {
             var cars = await _repository.AddCar(carDto);
             return cars;

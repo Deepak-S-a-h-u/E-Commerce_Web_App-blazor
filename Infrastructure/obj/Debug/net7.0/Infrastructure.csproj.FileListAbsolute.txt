@@ -150,3 +150,22 @@ D:\Bech Bhai Bech\BechBhaiBech\Infrastructure\obj\Debug\net7.0\refint\Infrastruc
 D:\Bech Bhai Bech\BechBhaiBech\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
 D:\Bech Bhai Bech\BechBhaiBech\Infrastructure\obj\Debug\net7.0\Infrastructure.genruntimeconfig.cache
 D:\Bech Bhai Bech\BechBhaiBech\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
+C:\Repo\E-Commerce_Web_App-blazor\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+C:\Repo\E-Commerce_Web_App-blazor\Infrastructure\bin\Debug\net7.0\Infrastructure.runtimeconfig.json
+C:\Repo\E-Commerce_Web_App-blazor\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+C:\Repo\E-Commerce_Web_App-blazor\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+C:\Repo\E-Commerce_Web_App-blazor\Infrastructure\bin\Debug\net7.0\Application.dll
+C:\Repo\E-Commerce_Web_App-blazor\Infrastructure\bin\Debug\net7.0\Domain.dll
+C:\Repo\E-Commerce_Web_App-blazor\Infrastructure\bin\Debug\net7.0\Application.pdb
+C:\Repo\E-Commerce_Web_App-blazor\Infrastructure\bin\Debug\net7.0\Domain.pdb
+C:\Repo\E-Commerce_Web_App-blazor\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Repo\E-Commerce_Web_App-blazor\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repo\E-Commerce_Web_App-blazor\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Repo\E-Commerce_Web_App-blazor\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+C:\Repo\E-Commerce_Web_App-blazor\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Repo\E-Commerce_Web_App-blazor\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
+C:\Repo\E-Commerce_Web_App-blazor\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+C:\Repo\E-Commerce_Web_App-blazor\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+C:\Repo\E-Commerce_Web_App-blazor\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+C:\Repo\E-Commerce_Web_App-blazor\Infrastructure\obj\Debug\net7.0\Infrastructure.genruntimeconfig.cache
+C:\Repo\E-Commerce_Web_App-blazor\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll

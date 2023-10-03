@@ -18,6 +18,7 @@ namespace Infrastructure.Services
         {
           //  services.AddScoped<IScheduleTransportRepository, ScheduleTransportRepository>();
             services.AddScoped<ICarRepository, CarRepository>();
+            services.AddScoped<IMobileRepository, MobileRepository>();
             services.AddDbContext<ApplicationDbContext>();
 
         }

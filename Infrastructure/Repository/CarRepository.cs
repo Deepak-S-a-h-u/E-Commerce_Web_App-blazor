@@ -1,6 +1,7 @@
 ﻿
 using Application.Common.Interfaces;
 using Application.Common.Models;
+using AutoMapper;
 using Domain.Entities;
 using Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
@@ -12,12 +13,13 @@ namespace Infrastructure.Repository
     {
         private readonly ApplicationDbContext _applicationDbContext;
         private readonly ILogger<CarRepository> _logger; // Logger instance
-        
+        private readonly IMapper _mapper;
 
-        public CarRepository(ApplicationDbContext applicationDbContext, ILogger<CarRepository> logger)
+        public CarRepository(ApplicationDbContext applicationDbContext, ILogger<CarRepository> logger,IMapper mapper)
         {
             _applicationDbContext = applicationDbContext;
             _logger = logger;
+            _mapper = mapper;
         }
 
         /// <summary>
@@ -25,15 +27,19 @@ namespace Infrastructure.Repository
         /// </summary>
         /// <param name="Car">Object containing values</param>
         /// <returns>The added Car</returns>
-    
-        public async Task<Car> AddCar(Car car)
+
+
+
+        
+        public async Task<CarDto> AddCar(CarDto car)
         {
-            var result = await _applicationDbContext.Cars.AddAsync(car);
+             var data= _mapper.Map<Car>(car);   
+            var result = await _applicationDbContext.Cars.AddAsync(data);
             await saveChanges();
 
             _logger.LogInformation("New Car added to the database."); // Log information
 
-            return result.Entity;
+            return car;
         }
 
         /// <summary>
@@ -68,10 +74,12 @@ namespace Infrastructure.Repository
         /// This method is used to get all Cars from the database.
         /// </summary>
         /// <returns>A list of all Cars</returns>
-        public async Task<IEnumerable<Car>> GetCars()
+        public async Task<IEnumerable<CarDto>> GetCars()
         {
             _logger.LogInformation("GetCars called to Get all Cars from database");
-            return await _applicationDbContext.Cars.ToListAsync();
+
+            return _mapper.Map<List<CarDto>>(_applicationDbContext.Cars.ToList());
+            
         }
 
 

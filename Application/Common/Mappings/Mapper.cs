@@ -10,8 +10,10 @@ namespace Application.Common.Mappings
         public Mapper()
         {
             
-            CreateMap<CarDto, Car>();
-            CreateMap<Car, CarDto>();
+            CreateMap<Car, CarDto>().ReverseMap();
+
+            CreateMap<Mobile, MobileDto>().ReverseMap();
+
            
         }
     }

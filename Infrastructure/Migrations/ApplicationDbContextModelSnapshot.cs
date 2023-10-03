@@ -93,6 +93,66 @@ namespace Infrastructure.Migrations
 
                     b.ToTable("cars", (string)null);
                 });
+
+            modelBuilder.Entity("Domain.Entities.Mobile", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("description");
+
+                    b.Property<string[]>("Images")
+                        .IsRequired()
+                        .HasColumnType("text[]")
+                        .HasColumnName("images");
+
+                    b.Property<int>("MobileBrand")
+                        .HasColumnType("integer")
+                        .HasColumnName("mobile_brand");
+
+                    b.Property<DateOnly>("ModelYear")
+                        .HasColumnType("date")
+                        .HasColumnName("model_year");
+
+                    b.Property<int>("OwnerNo")
+                        .HasColumnType("integer")
+                        .HasColumnName("owner_no");
+
+                    b.Property<int>("PinCode")
+                        .HasColumnType("integer")
+                        .HasColumnName("pin_code");
+
+                    b.Property<int>("Price")
+                        .HasColumnType("integer")
+                        .HasColumnName("price");
+
+                    b.Property<string>("SellerMobile")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("seller_mobile");
+
+                    b.Property<string>("SellerName")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("seller_name");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("title");
+
+                    b.HasKey("Id")
+                        .HasName("pk_mobiles");
+
+                    b.ToTable("mobiles", (string)null);
+                });
 #pragma warning restore 612, 618
         }
     }

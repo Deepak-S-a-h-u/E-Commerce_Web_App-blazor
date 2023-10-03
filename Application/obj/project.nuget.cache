@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cNgqSQYUSns7yIrjouA2NyMy2zSJD7bl13QFF/tTM+WXrw5ZEIfTx1KTKCrOSRopZLSIAcPsWwE1ybOrfbr9nA==",
+  "dgSpecHash": "aWpE9CjFYm4IqlxNsXsE4K8Xjs9JVO3koEr+1UQb7JSu01JBpnnwnYyP/nauJ4fyqozeMADu/vX8yCCjhSyv/Q==",
   "success": true,
-  "projectFilePath": "D:\\Bech Bhai Bech\\BechBhaiBech\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Repo\\E-Commerce_Web_App-blazor\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dotnet\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Dotnet\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

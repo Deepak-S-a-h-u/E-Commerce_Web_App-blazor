@@ -18,7 +18,7 @@ namespace Infrastructure.Persistence
         }
 
         public DbSet<Car> Cars{ get; set; }
-        
+        public DbSet<Mobile> Mobiles { get; set; }  
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

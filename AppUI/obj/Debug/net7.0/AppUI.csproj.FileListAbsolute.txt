@@ -29,3 +29,34 @@ D:\Bech Bhai Bech\BechBhaiBech\AppUI\obj\Debug\net7.0\refint\AppUI.dll
 D:\Bech Bhai Bech\BechBhaiBech\AppUI\obj\Debug\net7.0\AppUI.pdb
 D:\Bech Bhai Bech\BechBhaiBech\AppUI\obj\Debug\net7.0\AppUI.genruntimeconfig.cache
 D:\Bech Bhai Bech\BechBhaiBech\AppUI\obj\Debug\net7.0\ref\AppUI.dll
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\bin\Debug\net7.0\appsettings.Development.json
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\bin\Debug\net7.0\appsettings.json
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\bin\Debug\net7.0\AppUI.staticwebassets.runtime.json
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\bin\Debug\net7.0\AppUI.exe
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\bin\Debug\net7.0\AppUI.deps.json
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\bin\Debug\net7.0\AppUI.runtimeconfig.json
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\bin\Debug\net7.0\AppUI.dll
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\bin\Debug\net7.0\AppUI.pdb
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\AppUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\AppUI.AssemblyInfoInputs.cache
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\AppUI.AssemblyInfo.cs
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\AppUI.csproj.CoreCompileInputs.cache
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\AppUI.MvcApplicationPartsAssemblyInfo.cache
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\AppUI.RazorAssemblyInfo.cache
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\AppUI.RazorAssemblyInfo.cs
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\staticwebassets\msbuild.AppUI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\staticwebassets\msbuild.build.AppUI.props
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.AppUI.props
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.AppUI.props
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\scopedcss\bundle\AppUI.styles.css
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\scopedcss\projectbundle\AppUI.bundle.scp.css
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\AppUI.dll
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\refint\AppUI.dll
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\AppUI.pdb
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\AppUI.genruntimeconfig.cache
+C:\Repo\E-Commerce_Web_App-blazor\AppUI\obj\Debug\net7.0\ref\AppUI.dll

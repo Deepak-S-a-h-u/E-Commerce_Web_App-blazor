@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AppUI
 build_property.RootNamespace = AppUI
-build_property.ProjectDir = D:\Bech Bhai Bech\BechBhaiBech\AppUI\
+build_property.ProjectDir = C:\Repo\E-Commerce_Web_App-blazor\AppUI\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Bech Bhai Bech\BechBhaiBech\AppUI
+build_property.MSBuildProjectDirectory = C:\Repo\E-Commerce_Web_App-blazor\AppUI
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Bech Bhai Bech/BechBhaiBech/AppUI/App.razor]
+[C:/Repo/E-Commerce_Web_App-blazor/AppUI/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bech Bhai Bech/BechBhaiBech/AppUI/Pages/Car.razor]
+[C:/Repo/E-Commerce_Web_App-blazor/AppUI/Pages/Car.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bech Bhai Bech/BechBhaiBech/AppUI/Pages/FetchData.razor]
+[C:/Repo/E-Commerce_Web_App-blazor/AppUI/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bech Bhai Bech/BechBhaiBech/AppUI/Pages/Index.razor]
+[C:/Repo/E-Commerce_Web_App-blazor/AppUI/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bech Bhai Bech/BechBhaiBech/AppUI/Shared/SurveyPrompt.razor]
+[C:/Repo/E-Commerce_Web_App-blazor/AppUI/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bech Bhai Bech/BechBhaiBech/AppUI/_Imports.razor]
+[C:/Repo/E-Commerce_Web_App-blazor/AppUI/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bech Bhai Bech/BechBhaiBech/AppUI/Shared/MainLayout.razor]
+[C:/Repo/E-Commerce_Web_App-blazor/AppUI/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ac0jqt3p6w
 
-[D:/Bech Bhai Bech/BechBhaiBech/AppUI/Shared/NavMenu.razor]
+[C:/Repo/E-Commerce_Web_App-blazor/AppUI/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-hq37wklsk0
 
-[D:/Bech Bhai Bech/BechBhaiBech/AppUI/Pages/Error.cshtml]
+[C:/Repo/E-Commerce_Web_App-blazor/AppUI/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bech Bhai Bech/BechBhaiBech/AppUI/Pages/_Host.cshtml]
+[C:/Repo/E-Commerce_Web_App-blazor/AppUI/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

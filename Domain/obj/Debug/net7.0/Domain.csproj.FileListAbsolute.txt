@@ -87,3 +87,14 @@ D:\Bech Bhai Bech\BechBhaiBech\Domain\obj\Debug\net7.0\Domain.dll
 D:\Bech Bhai Bech\BechBhaiBech\Domain\obj\Debug\net7.0\refint\Domain.dll
 D:\Bech Bhai Bech\BechBhaiBech\Domain\obj\Debug\net7.0\Domain.pdb
 D:\Bech Bhai Bech\BechBhaiBech\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Repo\E-Commerce_Web_App-blazor\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Repo\E-Commerce_Web_App-blazor\Domain\bin\Debug\net7.0\Domain.dll
+C:\Repo\E-Commerce_Web_App-blazor\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Repo\E-Commerce_Web_App-blazor\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repo\E-Commerce_Web_App-blazor\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Repo\E-Commerce_Web_App-blazor\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Repo\E-Commerce_Web_App-blazor\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Repo\E-Commerce_Web_App-blazor\Domain\obj\Debug\net7.0\Domain.dll
+C:\Repo\E-Commerce_Web_App-blazor\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Repo\E-Commerce_Web_App-blazor\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Repo\E-Commerce_Web_App-blazor\Domain\obj\Debug\net7.0\ref\Domain.dll

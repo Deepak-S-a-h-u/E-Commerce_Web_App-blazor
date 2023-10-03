@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g9pI937qbPKtJhlEfZBerlOXY7yy3ib/dX9DujEVMuRdMoE6Ks18oEbfsBK14WS1+aiUeO6Y1daow+TnhBs3uA==",
+  "dgSpecHash": "wsS6TtUNuvrb0LbRb0mSjdu9ZCckQYBEeOzHCaZd1HqRAFU4ZHf8O/zm/YvCKmKaCnpytPIPGjNXSjiPia1ffQ==",
   "success": true,
-  "projectFilePath": "D:\\Bech Bhai Bech\\BechBhaiBech\\AppUI\\AppUI.csproj",
+  "projectFilePath": "C:\\Repo\\E-Commerce_Web_App-blazor\\AppUI\\AppUI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

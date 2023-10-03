@@ -5,9 +5,9 @@ namespace Application.Common.Interfaces
 {
     public interface ICarRepository
     {
-        Task<IEnumerable<Car>> GetCars();
+        Task<IEnumerable<CarDto>> GetCars();
         Task<Car> GetCarById(int carId);
-        Task<Car> AddCar(Car car);
+        Task<CarDto> AddCar(CarDto car);
         Task<Car> UpdateCar(Car car);
         Task<Car> DeleteCar(int CarId);
         Task saveChanges();

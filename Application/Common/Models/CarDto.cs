@@ -11,9 +11,13 @@ namespace Application.Common.Models
 {
     public class CarDto
     {
+
+            public string Title { get; set; }
+            public string Description { get; set; }
+            public string[]? Images { get; set; }
+            public int Price { get; set; }
             public string SellerName { get; set; }
             public string SellerMobile { get; set; }
-            
             public Brand Brand { get; set; }
             public DateOnly ModelYear { get; set; }
             public Fuel Fuel { get; set; }
