@@ -98,3 +98,4 @@ C:\Repo\E-Commerce_Web_App-blazor\Domain\obj\Debug\net7.0\Domain.dll
 C:\Repo\E-Commerce_Web_App-blazor\Domain\obj\Debug\net7.0\refint\Domain.dll
 C:\Repo\E-Commerce_Web_App-blazor\Domain\obj\Debug\net7.0\Domain.pdb
 C:\Repo\E-Commerce_Web_App-blazor\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Repo\E-Commerce_Web_App-blazor\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache

@@ -19,7 +19,6 @@ builder.Services.ConfigureApplication(builder.Configuration);
 //All Services of Infrastructure Project
 builder.Services.ConfigureInfrastructure(builder.Configuration);
 
-
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

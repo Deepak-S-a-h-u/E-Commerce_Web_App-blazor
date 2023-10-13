@@ -1,0 +1,120 @@
+2023-10-06T11:01:00.1513746+05:30 [INF] (VehicleRepository) Retrieved an Car by ID
+2023-10-06T11:01:00.2096182+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Vehicle/GetVehicleByItsType" responded 200 in 3919.8341 ms
+2023-10-06T11:02:55.9645615+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 2460.9027 ms
+2023-10-06T11:06:25.0181763+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 21228.9174 ms
+2023-10-06T11:20:56.1149868+05:30 [ERR] (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Brand" for actions - API.Controllers.BrandController.Get (API),API.Controllers.BrandController.Get (API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-06T11:21:30.3707605+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand/GetAll" responded 200 in 1971.6613 ms
+2023-10-06T11:21:58.4082612+05:30 [ERR] (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Brand" for actions - API.Controllers.BrandController.Get (API),API.Controllers.BrandController.Get (API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-06T11:23:12.5986649+05:30 [ERR] (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Brand" for actions - API.Controllers.BrandController.Get (API),API.Controllers.BrandController.Get (API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-06T11:23:39.6071864+05:30 [ERR] (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Brand" for actions - API.Controllers.BrandController.Get (API),API.Controllers.BrandController.Get (API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-06T11:24:24.4226335+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand/GetAll" responded 200 in 5235.3227 ms
+2023-10-06T11:25:33.8001745+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 3943.9207 ms
+2023-10-06T11:57:00.6680720+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 2584.8741 ms
+2023-10-06T11:57:06.8496288+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 1188.1675 ms
+2023-10-06T11:57:31.9327988+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand/GetAll" responded 200 in 3936.3242 ms
+2023-10-06T11:58:14.9352584+05:30 [INF] (VehicleRepository) GetCars called to Get all Cars from database
+2023-10-06T11:59:28.8614690+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Vehicle" responded 200 in 81905.1847 ms
+2023-10-06T12:00:15.1765207+05:30 [INF] (VehicleRepository) GetCars called to Get all Cars from database
+2023-10-06T12:00:17.8808546+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Vehicle" responded 200 in 8595.3119 ms
+2023-10-06T12:00:49.7052518+05:30 [INF] (VehicleRepository) Retrieved an Car by ID
+2023-10-06T12:00:49.7071805+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Vehicle/GetVehicleByItsType" responded 200 in 1414.8602 ms
+2023-10-06T12:05:02.3948441+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 1211.3385 ms
+2023-10-06T12:05:13.1933616+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 5186.0722 ms
+2023-10-06T12:05:18.4339339+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 3.0920 ms
+2023-10-06T12:06:36.4896236+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/api/Brand" responded 200 in 4920.7398 ms
+2023-10-06T12:09:18.1378088+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/api/Vehicle" responded 400 in 29.1803 ms
+2023-10-06T12:09:48.2332513+05:30 [INF] (VehicleRepository) Saved changes to the database
+2023-10-06T12:09:49.1853318+05:30 [INF] (VehicleRepository) New Car added to the database.
+2023-10-06T12:10:06.2773386+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/api/Vehicle" responded 200 in 35216.5631 ms
+2023-10-06T12:10:31.4276098+05:30 [INF] (VehicleRepository) GetCars called to Get all Cars from database
+2023-10-06T12:10:37.5040668+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Vehicle" responded 200 in 9610.1606 ms
+2023-10-06T12:32:40.5474983+05:30 [INF] (VehicleRepository) Retrieved an Car by ID
+2023-10-06T12:32:44.3169338+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Vehicle/GetVehicleByItsType" responded 200 in 67922.2115 ms
+2023-10-06T12:32:55.1649722+05:30 [INF] (VehicleRepository) Retrieved an Car by ID
+2023-10-06T12:32:55.1657660+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Vehicle/GetVehicleByItsType" responded 200 in 1557.2852 ms
+2023-10-06T12:35:14.5139084+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 81.6601 ms
+2023-10-06T12:35:20.5777159+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 6.4768 ms
+2023-10-06T12:35:28.4737208+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand/GetAll" responded 200 in 9.0169 ms
+2023-10-06T12:35:48.3175066+05:30 [INF] (VehicleRepository) Saved changes to the database
+2023-10-06T12:35:48.3176407+05:30 [INF] (VehicleRepository) New Car added to the database.
+2023-10-06T12:35:48.3181014+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/api/Vehicle" responded 200 in 1954.4787 ms
+2023-10-06T12:36:29.3696092+05:30 [INF] (VehicleRepository) Retrieved an Car by ID
+2023-10-06T12:36:29.3699413+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Vehicle/GetVehicleByItsType" responded 200 in 1360.1309 ms
+2023-10-06T12:44:01.5611630+05:30 [INF] (VehicleRepository) Retrieved an Car by ID
+2023-10-06T12:44:01.6145072+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Vehicle/GetVehicleByItsType" responded 200 in 2733.1550 ms
+2023-10-06T14:21:11.7214067+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 1044.9883 ms
+2023-10-06T14:21:20.0195538+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 30.8752 ms
+2023-10-06T14:21:23.9358366+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 44.3487 ms
+2023-10-06T14:21:36.9946538+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand/GetAll" responded 200 in 11.5821 ms
+2023-10-06T14:22:12.1382788+05:30 [INF] (VehicleRepository) Retrieved an Car by ID
+2023-10-06T14:22:12.1462871+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Vehicle/GetVehicleByItsType" responded 200 in 3609.1693 ms
+2023-10-06T14:26:17.3602650+05:30 [INF] (VehicleRepository) Retrieved an Car by ID
+2023-10-06T14:26:17.3607965+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Vehicle/GetVehicleByItsType" responded 200 in 1470.2593 ms
+2023-10-06T17:18:44.5243503+05:30 [INF] (VehicleRepository) Retrieved an Car by ID
+2023-10-06T17:18:44.6823159+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Vehicle/GetVehicleByItsType" responded 200 in 10216967.8023 ms
+2023-10-06T17:18:54.6975572+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand/GetAll" responded 200 in 6.1657 ms
+2023-10-06T17:18:55.4362590+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand/GetAll" responded 200 in 4.3589 ms
+2023-10-06T17:18:55.7551669+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand/GetAll" responded 200 in 2.3645 ms
+2023-10-06T17:18:55.9237080+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand/GetAll" responded 200 in 3.0137 ms
+2023-10-06T17:18:56.1040082+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand/GetAll" responded 200 in 3.0085 ms
+2023-10-06T17:18:56.2483068+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand/GetAll" responded 200 in 3.6579 ms
+2023-10-06T17:18:56.4151831+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand/GetAll" responded 200 in 4.1273 ms
+2023-10-06T17:18:56.6135381+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand/GetAll" responded 200 in 3.1785 ms
+2023-10-06T17:19:08.7260291+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 4.5233 ms
+2023-10-06T17:19:13.0981836+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 4.0547 ms
+2023-10-06T17:19:15.8926971+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 2.9128 ms
+2023-10-06T17:19:19.3397178+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 2.4996 ms
+2023-10-06T17:21:07.9691600+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 14.9273 ms
+2023-10-06T17:21:08.7722991+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 3.1787 ms
+2023-10-06T17:27:50.9005954+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/api/Vehicle" responded 400 in 27.9812 ms
+2023-10-06T19:02:08.1476926+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/api/Vehicle" responded 400 in 28.6157 ms
+2023-10-06T19:02:29.7599007+05:30 [INF] (VehicleRepository) Retrieved an Car by ID
+2023-10-06T19:02:29.7601937+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Vehicle/GetVehicleByItsType" responded 200 in 2345.8606 ms
+2023-10-06T19:02:43.7819596+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/api/Vehicle" responded 400 in 1.7034 ms
+2023-10-06T19:08:29.1982399+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/api/Vehicle" responded 400 in 4.9781 ms
+2023-10-06T19:09:26.3938384+05:30 [INF] (VehicleRepository) Saved changes to the database
+2023-10-06T19:09:27.0455672+05:30 [INF] (VehicleRepository) New Car added to the database.
+2023-10-06T19:09:28.8304823+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/api/Vehicle" responded 200 in 53121.0289 ms
+2023-10-06T19:12:02.8806555+05:30 [INF] (VehicleRepository) Retrieved an Car by ID
+2023-10-06T19:13:24.6549780+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Vehicle/GetVehicleByItsType" responded 200 in 228667.1871 ms
+2023-10-06T19:13:48.6259859+05:30 [INF] (VehicleRepository) Retrieved an Car by ID
+2023-10-06T19:13:49.9230617+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Vehicle/GetVehicleByItsType" responded 200 in 11939.2046 ms
+2023-10-06T19:14:51.1866918+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 9.6913 ms
+2023-10-06T19:15:06.0197519+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand/GetAll" responded 200 in 2.6121 ms
+2023-10-06T19:15:45.5879889+05:30 [INF] (VehicleRepository) GetCars called to Get all Cars from database
+2023-10-06T19:15:47.7472008+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Vehicle" responded 200 in 8840.5619 ms
+2023-10-06T19:16:20.7215729+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 19.9740 ms
+2023-10-06T19:16:48.5618527+05:30 [INF] (VehicleRepository) Retrieved an Car by ID
+2023-10-06T19:16:48.5622479+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Vehicle/GetVehicleByItsType" responded 200 in 1956.5270 ms

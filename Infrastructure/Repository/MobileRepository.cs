@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Repository
 {
-    public class MobileRepository : IMobileRepository
+   /* public class MobileRepository : IMobileRepository
     {
 
 
@@ -68,5 +68,5 @@ namespace Infrastructure.Repository
         {
             throw new NotImplementedException();
         }
-    }
+    }*/
 }

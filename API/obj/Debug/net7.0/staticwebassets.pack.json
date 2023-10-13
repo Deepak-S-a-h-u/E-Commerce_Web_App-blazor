@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Repo\\E-Commerce_Web_App-blazor\\API\\wwwroot\\ProductsImages\\images\\1230550.png3d7d2f1e-3620-4266-90a0-0b4559980644",
+      "PackagePath": "staticwebassets\\ProductsImages\\images\\1230550.png3d7d2f1e-3620-4266-90a0-0b4559980644"
+    },
+    {
+      "Id": "C:\\Repo\\E-Commerce_Web_App-blazor\\API\\wwwroot\\ProductsImages\\images\\1230550.png45471710-1204-4e9c-9d07-607de9320cc6",
+      "PackagePath": "staticwebassets\\ProductsImages\\images\\1230550.png45471710-1204-4e9c-9d07-607de9320cc6"
+    },
+    {
+      "Id": "C:\\Repo\\E-Commerce_Web_App-blazor\\API\\wwwroot\\ProductsImages\\images\\1230550.pngbc9fabd9-5de4-4d65-ab02-2d15ca55d1b9",
+      "PackagePath": "staticwebassets\\ProductsImages\\images\\1230550.pngbc9fabd9-5de4-4d65-ab02-2d15ca55d1b9"
+    },
+    {
+      "Id": "C:\\Repo\\E-Commerce_Web_App-blazor\\API\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Repo\\E-Commerce_Web_App-blazor\\API\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Repo\\E-Commerce_Web_App-blazor\\API\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Repo\\E-Commerce_Web_App-blazor\\API\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Repo\\E-Commerce_Web_App-blazor\\API\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Repo\\E-Commerce_Web_App-blazor\\API\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Repo\\E-Commerce_Web_App-blazor\\API\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Repo\\E-Commerce_Web_App-blazor\\API\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Repo\\E-Commerce_Web_App-blazor\\API\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Repo\\E-Commerce_Web_App-blazor\\API\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Repo\\E-Commerce_Web_App-blazor\\API\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Repo\\E-Commerce_Web_App-blazor\\API\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Repo\\E-Commerce_Web_App-blazor\\API\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.API.props",
+      "PackagePath": "build\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.API.props",
+      "PackagePath": "buildMultiTargeting\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.API.props",
+      "PackagePath": "buildTransitive\\API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

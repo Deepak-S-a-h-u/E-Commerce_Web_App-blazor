@@ -9,11 +9,11 @@ namespace Domain.Enums
     public enum MobileBrand
     {
         Realme=1,
-        Nokia,
-        Samsung,
-        Iphone,
-        Mi,
-        Oppo,
-        Motorola
+        Nokia=2,
+        Samsung=3,
+        Iphone=4,
+        Mi=5,
+        Oppo=6,
+        Motorola=7
     }
 }

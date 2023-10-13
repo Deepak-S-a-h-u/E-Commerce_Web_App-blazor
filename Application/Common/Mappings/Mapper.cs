@@ -9,10 +9,15 @@ namespace Application.Common.Mappings
     {
         public Mapper()
         {
-            
+            CreateMap<Vehicle, VehiclesDto>().ReverseMap();
+
+
             CreateMap<Car, CarDto>().ReverseMap();
 
             CreateMap<Mobile, MobileDto>().ReverseMap();
+
+            CreateMap<Electronics, ElectronicsDto>().ReverseMap();  
+
 
            
         }

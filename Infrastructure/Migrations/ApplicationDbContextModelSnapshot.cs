@@ -22,7 +22,7 @@ namespace Infrastructure.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("Domain.Entities.Car", b =>
+            modelBuilder.Entity("Domain.Entities.Brand", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -31,9 +31,33 @@ namespace Infrastructure.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("Brand")
+                    b.Property<int>("Classification")
                         .HasColumnType("integer")
-                        .HasColumnName("brand");
+                        .HasColumnName("classification");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("name");
+
+                    b.HasKey("Id")
+                        .HasName("pk_brand");
+
+                    b.ToTable("brand", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.Vehicle", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BrandId")
+                        .HasColumnType("integer")
+                        .HasColumnName("brand_id");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -44,14 +68,10 @@ namespace Infrastructure.Migrations
                         .HasColumnType("integer")
                         .HasColumnName("distance_driven");
 
-                    b.Property<int>("Fuel")
-                        .HasColumnType("integer")
-                        .HasColumnName("fuel");
-
-                    b.Property<string[]>("Images")
+                    b.Property<string>("FileData")
                         .IsRequired()
-                        .HasColumnType("text[]")
-                        .HasColumnName("images");
+                        .HasColumnType("text")
+                        .HasColumnName("file_data");
 
                     b.Property<DateOnly>("ModelYear")
                         .HasColumnType("date")
@@ -84,74 +104,25 @@ namespace Infrastructure.Migrations
                         .HasColumnType("text")
                         .HasColumnName("title");
 
-                    b.Property<int>("Transmission")
-                        .HasColumnType("integer")
-                        .HasColumnName("transmission");
-
                     b.HasKey("Id")
-                        .HasName("pk_cars");
+                        .HasName("pk_vehicles");
 
-                    b.ToTable("cars", (string)null);
+                    b.HasIndex("BrandId")
+                        .HasDatabaseName("ix_vehicles_brand_id");
+
+                    b.ToTable("vehicles", (string)null);
                 });
 
-            modelBuilder.Entity("Domain.Entities.Mobile", b =>
+            modelBuilder.Entity("Domain.Entities.Vehicle", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer")
-                        .HasColumnName("id");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Description")
+                    b.HasOne("Domain.Entities.Brand", "Brand")
+                        .WithMany()
+                        .HasForeignKey("BrandId")
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired()
-                        .HasColumnType("text")
-                        .HasColumnName("description");
+                        .HasConstraintName("fk_vehicles_brand_brand_id");
 
-                    b.Property<string[]>("Images")
-                        .IsRequired()
-                        .HasColumnType("text[]")
-                        .HasColumnName("images");
-
-                    b.Property<int>("MobileBrand")
-                        .HasColumnType("integer")
-                        .HasColumnName("mobile_brand");
-
-                    b.Property<DateOnly>("ModelYear")
-                        .HasColumnType("date")
-                        .HasColumnName("model_year");
-
-                    b.Property<int>("OwnerNo")
-                        .HasColumnType("integer")
-                        .HasColumnName("owner_no");
-
-                    b.Property<int>("PinCode")
-                        .HasColumnType("integer")
-                        .HasColumnName("pin_code");
-
-                    b.Property<int>("Price")
-                        .HasColumnType("integer")
-                        .HasColumnName("price");
-
-                    b.Property<string>("SellerMobile")
-                        .IsRequired()
-                        .HasColumnType("text")
-                        .HasColumnName("seller_mobile");
-
-                    b.Property<string>("SellerName")
-                        .IsRequired()
-                        .HasColumnType("text")
-                        .HasColumnName("seller_name");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasColumnType("text")
-                        .HasColumnName("title");
-
-                    b.HasKey("Id")
-                        .HasName("pk_mobiles");
-
-                    b.ToTable("mobiles", (string)null);
+                    b.Navigation("Brand");
                 });
 #pragma warning restore 612, 618
         }

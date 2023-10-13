@@ -14,13 +14,12 @@ namespace Domain.Entities
         public string SellerMobile { get; set; }
         [Key]
         public int Id { get; set; }
-        public Brand Brand { get; set; }
+        public Brand? Brand { get; set; }
         public DateOnly ModelYear { get; set; }
         public Fuel Fuel { get; set; }
         public Transmission Transmission { get; set; }
         public int DistanceDriven { get; set; }
         public int OwnerNo { get; set; }
-
         public int PinCode { get; set; }
     }
 }

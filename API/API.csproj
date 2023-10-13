@@ -28,6 +28,8 @@
 
   <ItemGroup>
     <Folder Include="Files\Logging\" />
+    <Folder Include="wwwroot\ProductsImages\images\" />
+    <Folder Include="wwwroot\ProductsImages\Gallery\" />
   </ItemGroup>
 
 </Project>

@@ -199,3 +199,5 @@ C:\Repo\E-Commerce_Web_App-blazor\API\obj\Debug\net7.0\refint\API.dll
 C:\Repo\E-Commerce_Web_App-blazor\API\obj\Debug\net7.0\API.pdb
 C:\Repo\E-Commerce_Web_App-blazor\API\obj\Debug\net7.0\API.genruntimeconfig.cache
 C:\Repo\E-Commerce_Web_App-blazor\API\obj\Debug\net7.0\ref\API.dll
+C:\Repo\E-Commerce_Web_App-blazor\API\bin\Debug\net7.0\API.staticwebassets.runtime.json
+C:\Repo\E-Commerce_Web_App-blazor\API\bin\Debug\net7.0\Newtonsoft.Json.dll

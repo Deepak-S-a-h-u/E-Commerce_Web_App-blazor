@@ -1,0 +1,11 @@
+2023-10-09T19:38:40.3245318+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 1297.9043 ms
+2023-10-09T19:48:27.7749701+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 58.5041 ms
+2023-10-09T19:48:31.9062138+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 46.7190 ms
+2023-10-09T19:48:35.9093150+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 3.9537 ms
+2023-10-09T19:48:39.2561047+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 4.8458 ms
+2023-10-09T19:48:43.9417171+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand" responded 200 in 3.5046 ms
+2023-10-09T19:48:50.0756812+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Brand/GetAll" responded 200 in 11.5726 ms
+2023-10-09T19:52:11.7265245+05:30 [INF] (VehicleRepository) Retrieved an Car by ID
+2023-10-09T19:52:12.9494647+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Vehicle/GetVehicleByItsType" responded 200 in 182562.8060 ms
+2023-10-09T19:52:27.2120067+05:30 [INF] (VehicleRepository) Retrieved an Car by ID
+2023-10-09T19:52:27.2128668+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/Vehicle/GetVehicleByItsType" responded 200 in 3235.7383 ms

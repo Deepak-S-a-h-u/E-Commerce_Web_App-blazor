@@ -9,6 +9,6 @@ namespace Domain.Enums
     public enum Transmission
     {
         Automatic=1,
-        Manual,
+        Manual=2
     }
 }

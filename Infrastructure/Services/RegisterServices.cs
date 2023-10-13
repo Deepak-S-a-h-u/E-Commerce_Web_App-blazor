@@ -16,9 +16,13 @@ namespace Infrastructure.Services
     {
         public static void ConfigureInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
-          //  services.AddScoped<IScheduleTransportRepository, ScheduleTransportRepository>();
-            services.AddScoped<ICarRepository, CarRepository>();
+           services.AddScoped<IBrandRepository, BrandRepository>();
+            services.AddScoped<IVehicleRepository, VehicleRepository>();
+            services.AddScoped<IFilterRepository, FilterRepository>();
+            services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            /*services.AddScoped<ICarRepository, CarRepository>();
             services.AddScoped<IMobileRepository, MobileRepository>();
+            services.AddScoped<ICategoriesRepository,CategoriesRepository>();*/
             services.AddDbContext<ApplicationDbContext>();
 
         }

@@ -21,5 +21,5 @@ namespace Application
             //Set MediatR configuration
             //services.AddMediatR(_ => _.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly()));
         }
-    }
+    }      
 }

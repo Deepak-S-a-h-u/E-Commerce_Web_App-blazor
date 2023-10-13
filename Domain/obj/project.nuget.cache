@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "C09gOwWcKrEI8BfCHRdCAA2uMhN4OXHRL7Wj5RFiKpM1aEddDbLHDytUZk1Rd0gx+vW+znW0f+Iw75kNhBg2qQ==",
+  "dgSpecHash": "c5YhyDPdjyB6kixHqrO6AEGKAofOLlubagOPvSVxzIOQ6OTNRVwltvd6IKMH0ek3fY3oG0uHBp47gUOBgJkjnA==",
   "success": true,
   "projectFilePath": "C:\\Repo\\E-Commerce_Web_App-blazor\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Dotnet\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\Dotnet\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Dotnet\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

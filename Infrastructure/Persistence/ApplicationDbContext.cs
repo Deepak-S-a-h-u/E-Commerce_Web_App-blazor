@@ -17,8 +17,17 @@ namespace Infrastructure.Persistence
             _configuration = configuration;
         }
 
-        public DbSet<Car> Cars{ get; set; }
-        public DbSet<Mobile> Mobiles { get; set; }  
+        public DbSet<Vehicle> Vehicles { get; set; }
+        public DbSet<Brand> Brand { get; set; }
+
+
+        //   public DbSet<Mobile> Mobiles { get; set; }  
+
+        //   public DbSet<Electronics> Electronics { get; set; }
+
+        //   public DbSet<Furniture> Furnitures { get; set; }
+
+
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

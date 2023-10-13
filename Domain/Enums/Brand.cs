@@ -1,21 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
-namespace Domain.Enums
-{
-    public enum Brand
-    {
-        Tata=1,
-        Toyota,
-        Maruti,
-        Suzuki,
-        Audi,
-        Mercedes,
-        Mahindra,
-
-
-    }
-}
+//namespace Domain.Enums
+//{
+//    public enum Brand
+//    {
+//        Tata=1,
+//        Toyota,
+//        Maruti,
+//        Suzuki,
+//        Audi,
+//        Mercedes,
+//        Mahindra,
+//jeep,MG,volkswagen,landrover,KKKCCCKCKCKC
+//    }
+//}
